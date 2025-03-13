@@ -1,8 +1,8 @@
 # Backend
 
 # Archivos de construcción de .NET
-bin/
-obj/
+backend/bin/
+backend/obj/
 
 # Configuración de usuario local
 *.user
@@ -15,17 +15,17 @@ obj/
 appsettings.json       # Solo si contiene datos sensibles (puedes subir una versión `appsettings.json.example` en su lugar)
 
 # Otros
-.vscode/               # Configuraciones específicas de Visual Studio Code
-.idea/                 # Configuraciones específicas de IDEs como JetBrains Rider
-.vs/			# Configuraciones específicas de IDEs como Visual Studio 2022
+backend/.vscode/               # Configuraciones específicas de Visual Studio Code
+backend/.idea/                 # Configuraciones específicas de IDEs como JetBrains Rider
+backend/.vs/			# Configuraciones específicas de IDEs como Visual Studio 2022
 
 # Frontend
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
+frontend/family-tree-ui/node_modules
+frontend/family-tree-ui/.pnp
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -34,14 +34,14 @@ appsettings.json       # Solo si contiene datos sensibles (puedes subir una vers
 !.yarn/versions
 
 # testing
-/coverage
+frontend/family-tree-ui/coverage
 
 # next.js
-/.next/
-/out/
+frontend/family-tree-ui/.next/
+frontend/family-tree-ui/out/
 
 # production
-/build
+frontend/family-tree-ui/build
 
 # misc
 .DS_Store
